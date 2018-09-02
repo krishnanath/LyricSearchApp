@@ -40,7 +40,7 @@ axios.get(`https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/
 
       </Context.Provider>
 
-    )
+    );
   }
 }
 
