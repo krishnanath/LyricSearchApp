@@ -1,25 +1,22 @@
 {
   "name": "lyricsearch_react",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "homepage": "https://krishnanath.github.io/LyricSearchApp/",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "moment": "^2.22.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-moment": "^0.7.9",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "deploy": "gh-pages -d src",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d dist"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnanath/LyricSearchApp.git"
+  },
+  "author": "krishnanath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishnanath/LyricSearchApp/issues"
+  },
+  "dependencies": {
     "gh-pages": "^1.2.0"
   }
 }
